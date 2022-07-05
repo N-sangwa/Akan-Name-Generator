@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.introduction{
+    background-color: rgb(238, 229, 229);
+}
+
+h2{
+    color: rgb(78, 6, 28);
+    text-align: center;
+    font-size: 170%;
+}
+
+p{
+   position: relative;
+   padding: 4%;
+}
+
+.table{
+    padding: 0 10%;
+    margin: 50px;
+    align-items: center;
+    width: 100%;
+  /* place-content: center; */
+
+}
+thead tr th{
+    letter-spacing:5%;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(63, 2, 20);
+    color: white;
+    letter-spacing: 2%;
+    border: 2px solid rgb(63, 2, 20);
+
+}
+
+tr td{
+    background-color:rgb(226, 210, 210);
+    text-align: center;
+    height: max-content;
+    padding: 3%;
+}
+
+.birth_information{
+    padding: 5%;
+    background-color:rgb(226, 210, 210);
+    background-position: center;
+    height: 100%;
+    margin: 50px;
+
+}
+
+.table_and_birth_container{
+    display: flex;
+
+   
+}
+button{
+    width: 60%;
+    background-color: rgb(63, 2, 20);
+    color: white;
+}
+
+
+
+
